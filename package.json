@@ -1,0 +1,44 @@
+{
+    "name": "mui-nextjs-starter",
+    "version": "0.1.1",
+    "sideEffects": false,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "export": "next export",
+        "prettier": "prettier --write src"
+    },
+    "dependencies": {
+        "@emotion/cache": "^11.11.0",
+        "@emotion/react": "^11.11.4",
+        "@emotion/server": "^11.11.0",
+        "@emotion/styled": "^11.11.5",
+        "@mui/icons-material": "^5.15.20",
+        "@mui/material": "^5.15.20",
+        "front-matter": "^4.0.2",
+        "glob": "^10.4.2",
+        "js-yaml": "^4.1.0",
+        "markdown-to-jsx": "^7.4.7",
+        "next": "14.2.4",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    },
+    "devDependencies": {
+        "@stackbit/cms-git": "^1.0.2",
+        "@stackbit/types": "^2.0.2",
+        "@types/glob": "^8.1.0",
+        "@types/js-yaml": "^4.0.9",
+        "@types/node": "^20.14.6",
+        "@types/react": "^18.3.3",
+        "autoprefixer": "^10.4.19",
+        "eslint": "^8.57.0",
+        "eslint-config-next": "^14.2.4",
+        "eslint-config-prettier": "^9.1.0",
+        "prettier": "^3.3.2",
+        "typescript": "^5.4.5"
+    },
+    "description": "A Nextjs page builder, component library and data source mapper all in one.",
+    "main": "next.config.js",
+    "license": "MIT"
+}
